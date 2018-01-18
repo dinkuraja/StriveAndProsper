@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item>
+		<medal>Bronze</medal>
+		<desc>Serve 100 Customers</desc>
+		<xp>25</xp>
+		<cash>0</cash>
+		<limit>100</limit>
+	</item>
+	<item>
+		<medal>Silver</medal>
+		<desc>Serve 1,000 Customers</desc>
+		<xp>250</xp>
+		<cash>0</cash>
+		<limit>1000</limit>
+	</item>
+	<item>
+		<medal>Gold</medal>
+		<desc>Serve 10,000 Customers</desc>
+		<xp>400</xp>
+		<cash>0</cash>
+		<limit>10000</limit>
+	</item>
+	<item>
+		<medal>Bronze</medal>
+		<desc>No lost customers - 100 in a row</desc>
+		<xp>50</xp>
+		<cash>0</cash>
+		<limit>100</limit>
+	</item>
+	<item>
+		<medal>Silver</medal>
+		<desc>No lost customers - 250 in a row</desc>
+		<xp>350</xp>
+		<cash>0</cash>
+		<limit>250</limit>
+	</item>
+	<item>
+		<medal>Gold</medal>
+		<desc>No lost customers - 1000 in a row</desc>
+		<xp>500</xp>
+		<cash>0</cash>
+		<limit>1000</limit>
+	</item>
+	<item>
+		<medal>Bronze</medal>
+		<desc>No thrown out items - 10 levels in a row</desc>
+		<xp>15</xp>
+		<cash>0</cash>
+		<limit>10</limit>
+	</item>
+	<item>
+		<medal>Silver</medal>
+		<desc>No thrown out items - 30 levels in a row</desc>
+		<xp>100</xp>
+		<cash>0</cash>
+		<limit>30</limit>
+	</item>
+	<item>
+		<medal>Gold</medal>
+		<desc>No thrown out items - 100 levels in a row</desc>
+		<xp>250</xp>
+		<cash>0</cash>
+		<limit>100</limit>
+	</item>
+	<item>
+		<medal>Bronze</medal>
+		<desc>Earn 10,000 in tips</desc>
+		<xp>25</xp>
+		<cash>0</cash>
+		<limit>10000</limit>
+	</item>
+	<item>
+		<medal>Silver</medal>
+		<desc>Earn 100,000 in tips</desc>
+		<xp>250</xp>
+		<cash>0</cash>
+		<limit>100000</limit>
+	</item>
+	<item>
+		<medal>Gold</medal>
+		<desc>Earn 1,000,000 in tips</desc>
+		<xp>400</xp>
+		<cash>0</cash>
+		<limit>1000000</limit>
+	</item>
+	<item>
+		<medal>Bronze</medal>
+		<desc>Complete 30 levels with 3 stars</desc>
+		<xp>50</xp>
+		<cash>0</cash>
+		<limit>30</limit>
+	</item>
+	<item>
+		<medal>Silver</medal>
+		<desc>Complete 80 levels with 3 stars</desc>
+		<xp>350</xp>
+		<cash>0</cash>
+		<limit>80</limit>
+	</item>
+	<item>
+		<medal>Gold</medal>
+		<desc>Complete 150 levels with 3 stars</desc>
+		<xp>500</xp>
+		<cash>0</cash>
+		<limit>150</limit>
+	</item>
+	<item>
+		<medal>Silver</medal>
+		<desc>Complete all stages at Food Cart</desc>
+		<xp>250</xp>
+		<cash>0</cash>
+		<limit>30</limit>
+	</item>
+	<item>
+		<medal>Silver</medal>
+		<desc>Complete all stages at Clothing Stand</desc>
+		<xp>250</xp>
+		<cash>0</cash>
+		<limit>30</limit>
+	</item>
+	<item>
+		<medal>Silver</medal>
+		<desc>Complete all stages at Black Door Records</desc>
+		<xp>350</xp>
+		<cash>0</cash>
+		<limit>30</limit>
+	</item>
+	<item>
+		<medal>Silver</medal>
+		<desc>Complete all stages at Clothing Store</desc>
+		<xp>400</xp>
+		<cash>0</cash>
+		<limit>30</limit>
+	</item>
+	<item>
+		<medal>Silver</medal>
+		<desc>Complete all stages at Restaurant</desc>
+		<xp>500</xp>
+		<cash>0</cash>
+		<limit>30</limit>
+	</item>
+	<item>
+		<medal>Bronze</medal>
+		<desc>Have 100,000 dollars on hand</desc>
+		<xp>25</xp>
+		<cash>0</cash>
+		<limit>100000</limit>
+	</item>
+	<item>
+		<medal>Silver</medal>
+		<desc>Have 500,000 dollars on hand</desc>
+		<xp>250</xp>
+		<cash>0</cash>
+		<limit>500000</limit>
+	</item>
+	<item>
+		<medal>Gold</medal>
+		<desc>Have 1,000,000 dollars on hand</desc>
+		<xp>400</xp>
+		<cash>0</cash>
+		<limit>1000000</limit>
+	</item>
+	<item>
+		<medal>Bronze</medal>
+		<desc>Play 7 days in a row</desc>
+		<xp>25</xp>
+		<cash>0</cash>
+		<limit>7</limit>
+	</item>
+	<item>
+		<medal>Silver</medal>
+		<desc>Play 14 days in a row</desc>
+		<xp>250</xp>
+		<cash>0</cash>
+		<limit>14</limit>
+	</item>
+	<item>
+		<medal>Gold</medal>
+		<desc>Play 30 days in a row</desc>
+		<xp>400</xp>
+		<cash>0</cash>
+		<limit>30</limit>
+	</item>
+	<item>
+		<medal>Bronze</medal>
+		<desc>Spend 100,000 dollars</desc>
+		<xp>25</xp>
+		<cash>0</cash>
+		<limit>100000</limit>
+	</item>
+	<item>
+		<medal>Silver</medal>
+		<desc>Spend 500,000 dollars</desc>
+		<xp>250</xp>
+		<cash>0</cash>
+		<limit>500000</limit>
+	</item>
+	<item>
+		<medal>Gold</medal>
+		<desc>Spend 1,000,000 dollars</desc>
+		<xp>400</xp>
+		<cash>0</cash>
+		<limit>1000000</limit>
+	</item>
+	<item>
+		<medal>Bronze</medal>
+		<desc>Spend 25 Gems</desc>
+		<xp>50</xp>
+		<cash>0</cash>
+		<limit>25</limit>
+	</item>
+	<item>
+		<medal>Silver</medal>
+		<desc>Spend 75 Gems</desc>
+		<xp>350</xp>
+		<cash>0</cash>
+		<limit>75</limit>
+	</item>
+	<item>
+		<medal>Gold</medal>
+		<desc>Spend 150 Gems</desc>
+		<xp>500</xp>
+		<cash>0</cash>
+		<limit>150</limit>
+	</item>
+	<item>
+		<medal>Bronze</medal>
+		<desc>Burn 1 Dish</desc>
+		<xp>15</xp>
+		<cash>0</cash>
+		<limit>1</limit>
+	</item>
+	<item>
+		<medal>Silver</medal>
+		<desc>Burn 25 Dishes</desc>
+		<xp>100</xp>
+		<cash>0</cash>
+		<limit>25</limit>
+	</item>
+	<item>
+		<medal>Gold</medal>
+		<desc>Burn 100 Dishes</desc>
+		<xp>250</xp>
+		<cash>0</cash>
+		<limit>100</limit>
+	</item>
+	<item>
+		<medal>Bronze</medal>
+		<desc>10 Customers Lost</desc>
+		<xp>15</xp>
+		<cash>0</cash>
+		<limit>10</limit>
+	</item>
+	<item>
+		<medal>Silver</medal>
+		<desc>50 Customers Lost</desc>
+		<xp>100</xp>
+		<cash>0</cash>
+		<limit>50</limit>
+	</item>
+	<item>
+		<medal>Gold</medal>
+		<desc>100 Customers Lost</desc>
+		<xp>250</xp>
+		<cash>0</cash>
+		<limit>100</limit>
+	</item>
+	<item>
+		<medal>Bronze</medal>
+		<desc>10 Celebs Served</desc>
+		<xp>25</xp>
+		<cash>0</cash>
+		<limit>10</limit>
+	</item>
+	<item>
+		<medal>Silver</medal>
+		<desc>50 Celebs Served</desc>
+		<xp>250</xp>
+		<cash>0</cash>
+		<limit>50</limit>
+	</item>
+	<item>
+		<medal>Gold</medal>
+		<desc>100 Celebs Served</desc>
+		<xp>400</xp>
+		<cash>0</cash>
+		<limit>100</limit>
+	</item>
+	<item>
+		<medal>Bronze</medal>
+		<desc>Unlock 1 Location</desc>
+		<xp>15</xp>
+		<cash>0</cash>
+		<limit>1</limit>
+	</item>
+	<item>
+		<medal>Silver</medal>
+		<desc>Unlock 3 Locations</desc>
+		<xp>100</xp>
+		<cash>0</cash>
+		<limit>3</limit>
+	</item>
+	<item>
+		<medal>Gold</medal>
+		<desc>Unlock 5 Locations</desc>
+		<xp>250</xp>
+		<cash>0</cash>
+		<limit>5</limit>
+	</item>
+	<item>
+		<medal>Bronze</medal>
+		<desc>Reach Player Level 10</desc>
+		<xp>25</xp>
+		<cash>0</cash>
+		<limit>10</limit>
+	</item>
+	<item>
+		<medal>Silver</medal>
+		<desc>Reach Player Level 20</desc>
+		<xp>250</xp>
+		<cash>0</cash>
+		<limit>20</limit>
+	</item>
+	<item>
+		<medal>Gold</medal>
+		<desc>Reach Player Level 30</desc>
+		<xp>400</xp>
+		<cash>0</cash>
+		<limit>30</limit>
+	</item>
+	<item>
+		<medal>Gold</medal>
+		<desc>3 Stars on all Heggies Stages</desc>
+		<xp>250</xp>
+		<cash>0</cash>
+		<limit>30</limit>
+	</item>
+	<item>
+		<medal>Gold</medal>
+		<desc>3 Stars on all All Food Cart Stages</desc>
+		<xp>250</xp>
+		<cash>0</cash>
+		<limit>30</limit>
+	</item>
+	<item>
+		<medal>Gold</medal>
+		<desc>3 Stars on all Black Door Record Stages</desc>
+		<xp>250</xp>
+		<cash>0</cash>
+		<limit>30</limit>
+	</item>
+	<item>
+		<medal>Gold</medal>
+		<desc>3 Stars on all Location 4 Stages</desc>
+		<xp>250</xp>
+		<cash>0</cash>
+		<limit>30</limit>
+	</item>
+	<item>
+		<medal>Gold</medal>
+		<desc>3 Stars on all Location 5 Stages</desc>
+		<xp>250</xp>
+		<cash>0</cash>
+		<limit>30</limit>
+	</item>
+	<item>
+		<medal>Bronze</medal>
+		<desc>Spend 1,000 dollars on Ceelo</desc>
+		<xp>15</xp>
+		<cash>0</cash>
+		<limit>1000</limit>
+	</item>
+	<item>
+		<medal>Silver</medal>
+		<desc>Spend 25,000 dollars on Ceelo</desc>
+		<xp>100</xp>
+		<cash>0</cash>
+		<limit>25000</limit>
+	</item>
+	<item>
+		<medal>Gold</medal>
+		<desc>Spend 100,000 dollars on Ceelo</desc>
+		<xp>250</xp>
+		<cash>0</cash>
+		<limit>100000</limit>
+	</item>
+	<item>
+		<medal>Bronze</medal>
+		<desc>Earn 50,000 dollars in Ceelo</desc>
+		<xp>250</xp>
+		<cash>0</cash>
+		<limit>50000</limit>
+	</item>
+	<item>
+		<medal>Silver</medal>
+		<desc>Earn 250,000 dollars dollars in Ceelo</desc>
+		<xp>400</xp>
+		<cash>0</cash>
+		<limit>250000</limit>
+	</item>
+	<item>
+		<medal>Bronze</medal>
+		<desc>1 Locations Fully Upgrade</desc>
+		<xp>25</xp>
+		<cash>0</cash>
+		<limit>1</limit>
+	</item>
+	<item>
+		<medal>Silver</medal>
+		<desc>3 Locations Fully Upgraded</desc>
+		<xp>250</xp>
+		<cash>0</cash>
+		<limit>3</limit>
+	</item>
+	<item>
+		<medal>Gold</medal>
+		<desc>5 Locations Fully Upgraded</desc>
+		<xp>400</xp>
+		<cash>0</cash>
+		<limit>5</limit>
+	</item>
+</data>

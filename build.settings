@@ -1,0 +1,149 @@
+settings = {
+	
+	splashScreen = 
+    {
+        enable = false
+    },
+	
+	
+    excludeFiles =
+	{
+		-- Exclude all Android icon files and .ogg files in the "music" directory
+		iphone = { "Icon-*dpi.png", "*.ogg" },
+
+		-- Exclude iOS "retina" image files and .m4a files in the "music" directory
+		android = { "Icon.png", "*@2x.png", "*.m4a" },
+	},
+
+	plugins =
+    {
+		["plugin.facebook.v4"] =
+        {
+            publisherId = "com.coronalabs",
+			--supportedPlatforms = { iphone=true, android=true }
+        },
+		
+		["CoronaProvider.gameNetwork.apple"] =
+        {
+            publisherId = "com.coronalabs",
+            supportedPlatforms = { iphone=true }
+        },
+		
+        ["plugin.google.play.services"] =
+        {
+            publisherId = "com.coronalabs",
+            supportedPlatforms = { android=true }
+        },
+		
+		["plugin.twitter"] = 
+		{
+            publisherId = "com.jasonschroeder",
+        },
+		
+		--[[ 
+		-- DOUBLECLICK PLUGIN
+		["plugin.doubleclick"] = 
+		{
+			publisherId = 'com.coronalabs',
+			supportedPlatforms = 
+			{
+				iphone = {url = 'https://dl.dropboxusercontent.com/u/55969280/plugin.doubleclick.iphone.tgz'},
+				android = {url = 'https://dl.dropboxusercontent.com/u/55969280/plugin.doubleclick.android.tgz'},
+				osx = false,
+				win32 = false
+			}
+		}
+		--]]
+    },
+	
+	android =
+    {
+		versionCode = "1",
+		usesExpansionFile = false,
+        usesPermissions =
+        {
+			"android.permission.INTERNET",
+            "com.android.vending.BILLING",
+			"com.android.vending.CHECK_LICENSE",
+			"android.permission.WRITE_EXTERNAL_STORAGE",
+			"android.permission.ACCESS_NETWORK_STATE",
+        },
+		facebookAppId = "1793335060985668",
+    },
+
+	orientation =
+	{
+		default = "landscape",
+		content =
+	    {
+	            fps = 60,
+	   	},
+		supported =
+ 		{
+        		"landscapeRight", "landscapeLeft"
+   		}
+
+	},
+	iphone =
+	{	
+		xcassets = "Images.xcassets",
+
+		plist =
+		{
+			UIStatusBarHidden = true,
+		   CFBundleShortVersionString = "1.0.0",
+		   
+		   UIAppFonts = 
+			{
+				
+			},
+	        UIApplicationExitsOnSuspend = false,
+            FacebookAppID = "1793335060985668",
+            CFBundleURLTypes =
+            {
+                { CFBundleURLSchemes = { "fb1793335060985668", } }
+            },
+			
+			-- Whitelist Facebook Servers for Network Requests
+            NSAppTransportSecurity = 
+            {
+				NSAllowsArbitraryLoads = true, 
+				
+                NSExceptionDomains = 
+                {
+                    ["fbcdn.net"] = 
+                    {
+                        NSIncludesSubdomains = true,
+                        NSExceptionRequiresForwardSecrecy = false,
+                    },
+                    ["facebook.com"] = 
+                    {
+                        NSIncludesSubdomains = true,
+                        NSExceptionRequiresForwardSecrecy = false,
+                    },
+                    ["akamaihd.net"] = 
+                    {
+                        NSIncludesSubdomains = true,
+                        NSExceptionRequiresForwardSecrecy = false,
+                    },
+                },
+            },
+
+            -- Whitelist Facebook Apps
+            LSApplicationQueriesSchemes = 
+            {
+                "fb",
+                "fbapi20130214",
+                "fbapi20130410",
+                "fbapi20140410",
+                "fbapi20140116",
+                "fbapi20150313",
+                "fbapi20150629",
+                "fbauth",
+                "fbauth2",
+                "fb-messenger-api20140430",
+            },
+		}
+	}
+
+}
