@@ -279,9 +279,15 @@ end
 
 function showMap()
 	
+	
+	print(_G.audioFromLaunch)
+	
+	if(_G.audioFromLaunch == false)then
 	_G.mixer.loadMusic('map_dice')
 	_G.mixer.playMusic()
-	
+	else
+	_G.audioFromLaunch = false
+	end
 	_G.loader.hideLoader()
 
 	transition.to( grp_main.black, 		{delay=0000, time=0500, alpha=0, transition=easing.outQuad})

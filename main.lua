@@ -37,6 +37,7 @@ audio.setVolume(1)
 
 _G.DEBUG_LEVEL = 4
 
+_G.audioFromLaunch = true
 _G.baseWidth = 1024
 _G.baseHeight = 768
 _G.deviceWidth = display.viewableContentWidth
@@ -260,6 +261,11 @@ function launchApp()
 	-- load global sounds
 	_G.mixer.loadNavSFX()
 	
+	_G.mixer.loadMusic('map_dice')
+	_G.mixer.playMusic()
+
+	
+	
 	-- init storefront
 	if( _G.store )then
 	
@@ -311,7 +317,7 @@ function launchApp()
 	
 	
 	print(_G.isFirstLaunch)
-	
+	--_G.isFirstLaunch = true
 	
 	local function loadfunction(e)
 	

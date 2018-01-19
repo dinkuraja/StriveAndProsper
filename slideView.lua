@@ -105,6 +105,7 @@ function new( imageSet, slideBackground, top, bottom )
 	nextIcon = display.newImageRect("graphics/firstTut/arrowIcon.png", 50,50)
 	nextIcon.x = viewableScreenW - 50
 	nextIcon.y = viewableScreenH - 75
+	nextIcon.alpha = 0
 	g:insert(nextIcon)
 	
 	
@@ -223,13 +224,13 @@ function new( imageSet, slideBackground, top, bottom )
 		
 		for i = 1, #imageDots do
 		
-			imageDots[i]:setFillColor(0.5)
+			imageDots[i]:setFillColor(1)
 		
 		
 		end
 		
 		
-		imageDots[imgNum]:setFillColor(1)
+		imageDots[imgNum]:setFillColor(0.1)
 		
 		
 		if(imgNum == #imageSet)then
@@ -245,17 +246,17 @@ function new( imageSet, slideBackground, top, bottom )
 		else
 		
 			nextIcon.alpha = 0
-			previousIcon.alpha = 0	
+			previousIcon.alpha = 0
 		
 		end
 		
-		timer.cancel(tmr)
+		--timer.cancel(tmr)
 	if(imgNum ~= #imageSet)then	
-	tmr = timer.performWithDelay(3000,nextImage,1)
+	--tmr = timer.performWithDelay(8000,nextImage,1)
 	
 	else
 	
-	tmr = timer.performWithDelay(3000,closeTut,1)
+	--tmr = timer.performWithDelay(3000,closeTut,1)
 	
 	end	
 		initImage(imgNum)
@@ -268,13 +269,13 @@ function new( imageSet, slideBackground, top, bottom )
 		
 		for i = 1, #imageDots do
 		
-			imageDots[i]:setFillColor(0.5)
+			imageDots[i]:setFillColor(1)
 		
 		
 		end
 		
 		
-		imageDots[imgNum]:setFillColor(1)
+		imageDots[imgNum]:setFillColor(0.1)
 		
 		
 		
@@ -295,9 +296,9 @@ function new( imageSet, slideBackground, top, bottom )
 			previousIcon.alpha = 0	
 		
 		end
-		timer.cancel(tmr)
+--		timer.cancel(tmr)
 	if(imgNum ~= #imageSet)then	
-	tmr = timer.performWithDelay(3000,nextImage,1)
+	--tmr = timer.performWithDelay(3000,nextImage,1)
 	
 	else
 	
@@ -362,7 +363,7 @@ function new( imageSet, slideBackground, top, bottom )
 	local myclosure = function() return _G.map.buildModule() end
 		myclosure()
 	
-		timer.cancel(tmr)
+		--timer.cancel(tmr)
 	
 	
 	local function callClose(e)
@@ -379,31 +380,32 @@ function new( imageSet, slideBackground, top, bottom )
 	
 	closeImage:addEventListener("tap", closeTut)
 
-		j = 30
+		j = 40
 
-		
+	
+	
 	for i = 1, #imageSet do
 	
 	
 	imageDots[i] = display.newCircle( viewableScreenW*0.5 - j, viewableScreenH - 20, 7 )
 	if(i == 1)then	
-	imageDots[i]:setFillColor( 1 )
+	imageDots[i]:setFillColor( 0.1 )
 	else
 	
-	imageDots[i]:setFillColor( 0.5 )
+	imageDots[i]:setFillColor( 1 )
 
 	end
 	g:insert(imageDots[i])
 	
 	print(j)
 	
-	j = j - 15
+	j = j - 20
 	
 	end
 	
 	
 	
-	tmr = timer.performWithDelay(5000,nextImage,1)
+	--tmr = timer.performWithDelay(8000,nextImage,1)
 	
 	return g	
 end
